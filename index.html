@@ -1,6 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Survey Form</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
+    <body>
+        <h1 id="title">Clavash Cafe</h1>
+        <p  id="description" class="describtion"> Quality Survry</p>
+        <form id="survey-form">
+            <p>Your time filling this survey is highly appreciated.
+                Clavash Cafe is looking to improve just to fulfill your expectations.<strong class="strong"> Together for the best :)</strong></p>
+            <fieldset>
+                <label id="name-label">Name:
+                    <input id="name" type="text" placeholder="Enter Your Name" required/>
+                </label>
+                <label id="email-label">Email:
+                    <input id="email" type="email" name="email" placeholder="Enter Your Email" required/>
+                </label>
+                <label id="number-label">Your Age:
+                    <input id="number" type="number" name="number" min="2" max="100" placeholder="How old are you?" required/>
+                </label><hr>
+                <label>How many times a day do you drink coffee?
+                    <select id="dropdown" class="block">
+                        <option value="">Select an option</option>
+                        <option value="1">one time a day</option>
+                        <option value="2">Two-Three times a day</option>
+                        <option value="3">Four-Six times a day</option>
+                    </select>
+                    <label>
+                        <input class="inline" type="checkbox">Other
+                        <input class="inline" type="text" placeholder="How many times?">
+                    </label>
+                </label>
+                <label> 
+                    <p>Where do you usually drink coffee?</p>
+                    <input type="radio" class="inline" value="Home" name="prefrence"/>Home
+                </label>
+                <label>
+                    <input type="radio" class="inline" value="Cafe" name="prefrence">In a Coffee Shop
+                </label>
+                <label>
+                    <input type="radio" class="inline" value="Both" name="prefrence">Both Equally
+                </label><hr>
+                <label>Which of these drinks would be your choice when going to a Cafe?
+                    <input class="inline" type="checkbox" value="Espresso">Espresso
+                </label>
+                <label>
+                    <input class="inline" type="checkbox" value="Cappuccino">Cappuccino
+                </label>
+                <label>
+                    <input class="inline" type="checkbox" value="Americano">Americano
+                </label>
+                <label>
+                    <input class="inline" type="checkbox" value="Frappuccino">Frappuccino
+                </label>
+                <label>
+                    <input class="inline" type="radio">Other
+                    <input class="inline" type="text" placeholder="Your Favorite Drink">
+                </label><hr>
+                <label>
+                    <p>When choosing to which coffee shop you want to go,
+                    which of the follow reasons are is your  main decision factors?
+                    </p>
+                    <input type="radio" class="inline" value="Price" name="prefrence"/>Price
+                </label>
+                <label>
+                       <input type="radio" class="inline" value="Environment" name="prefrence">Environment within the coffee shop
+                </label>
+                <label>
+                       <input type="radio" class="inline" value="Service" name="prefrence">Service
+                </label>
+                <label>
+                    <input type="radio" class="inline" value="Quality" name="prefrence"/>Quality
+                </label>
+                   <label>
+                       <input type="radio" class="inline" value="Popularity" name="prefrence">Popularity of the brand
+                   </label>
+                   <label>
+                   <input class="inline" type="radio">Other
+                   <input class="inline" type="text" placeholder="Your Own Reason">
+                </label><hr>
+               </label>
+                <label> Your Advice :
+                    <textarea class="block" name="advice" rows="4" cols="50" placeholder="I would like to advice you to ..."></textarea>
+                </label><hr>
+                <input id="submit" type="submit"/>
+            </fieldset> 
+        </form>
+    </body>
 </html>

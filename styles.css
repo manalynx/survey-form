@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background: url("coffee.png") 45%;
+    color:rgb(66, 52, 8);
+    background-size: cover;
+      }
+
+h1{
+    margin: 1em auto;
+    text-align: left;
+    margin-left: 17%;
+    font-size: 40px;
+    margin-top: 2;
+    margin-bottom: 10px;
+      }
+
+.describtion{
+    margin: 1em auto;
+    text-align: left;
+    margin-left: 19%;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.strong{
+    color: rgb(106, 84, 10);
+}
+
+fieldset {
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    border: 0;
+      }
+
+label{
+    display:block;
+    margin: 0.5rem auto;
+  }
+  
+  input {
+    display: block;
+  }
+  
+  .inline{
+    display:inline;
+  }
+
+form {
+    padding-top: 1;
+    width: 80%;
+    margin-right: auto;
+    margin-left:3%;
+    padding: 20px;
+    max-width: 550px;
+    background-color: rgba(250, 235, 215, 50%);
+}
+
+.block{
+    display: block;
+}
+
+hr {
+    height: 1px;
+    background-color: rgba(59, 36, 4, 0.5);
+    border-color:rgba(250, 235, 215, 50%);
+  }
+
+  input, textarea, select{
+    background-color: rgba(250, 235, 215, 50%); 
+    border-color: rgba(59, 36, 4, 0.5);
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:  rgba(250, 235, 215, 50%); 
+    border-color: rgba(59, 36, 4, 0.5);
+    min-width: 300px;
+  }
