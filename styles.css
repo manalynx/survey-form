@@ -1,3 +1,4 @@
+/* body */
 body {
     margin: 0;
     font-family: sans-serif;
@@ -7,6 +8,7 @@ body {
     background-size: cover;
       }
 
+/* headline */
 h1{
     margin: 1em auto;
     text-align: left;
@@ -16,6 +18,7 @@ h1{
     margin-bottom: 10px;
       }
 
+/* first <p> element  */
 .describtion{
     margin: 1em auto;
     text-align: left;
@@ -25,30 +28,32 @@ h1{
     margin-bottom: 10px;
     font-family: sans-serif;
 }
-
+/* strong text inside the previous <p> */
 .strong{
     color: rgb(106, 84, 10);
 }
 
+/* fieldset */
 fieldset {
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
     border: 0;
       }
 
+/* all labels */
 label{
     display:block;
     margin: 0.5rem auto;
   }
-  
-  input {
+/*input  */
+input {
     display: block;
   }
-  
-  .inline{
+.inline{
     display:inline;
   }
 
+/* form */
 form {
     padding-top: 1;
     width: 80%;
@@ -63,18 +68,20 @@ form {
     display: block;
 }
 
+/* line between sections */
 hr {
     height: 1px;
     background-color: rgba(59, 36, 4, 0.5);
     border-color:rgba(250, 235, 215, 50%);
   }
 
-  input, textarea, select{
+input, textarea, select{
     background-color: rgba(250, 235, 215, 50%); 
     border-color: rgba(59, 36, 4, 0.5);
   }
 
-  input[type="submit"] {
+  /* submit */
+input[type="submit"] {
     display: block;
     width: 60%;
     margin: 1em auto;
